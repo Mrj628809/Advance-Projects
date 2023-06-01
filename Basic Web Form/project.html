@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Information Form</title>
+</head>
+<body bgcolor="beige">
+    <h1>Student Information Form</h1>
+    <form action="project.py" method="POST">
+    <fieldset style='width:400px; height:400px; border-color:purple'>
+    <table bgcolor=lightgray width=570px>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="address">Address:</label>
+        <textarea id="address" name="address"></textarea><br><br>
+        <label for="grade_level">Grade Level:</label>
+        <select id="grade_level" name="grade_level">
+            <option value="freshman">Freshman</option>
+            <option value="sophomore">Sophomore</option>
+            <option value="junior">Junior</option>
+            <option value="senior">Senior</option>
+        </select><br><br>
+        <label for="major">Major:</label>
+        <input type="text" id="major" name="major"><br><br>
+        <input type="submit" value="Submit">
+        <input type="reset"  name=cancel value="Cancel" />
+    </table>
+    </fieldset>    
+    </form>
+</body>
+</html>
