@@ -15,6 +15,7 @@ The coursework in this repository demonstrates my proficiency in advanced Python
 - Web scraping and API integration
 - Data visualization and plotting
 - Unit testing and debugging
+- Machine learning model utilization
 
 ## Folder Structure
 
